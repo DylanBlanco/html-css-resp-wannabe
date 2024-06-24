@@ -130,21 +130,32 @@ img {
 
  /*header*/
  @media screen and (max-width:480px) {
-    .container {
-        width: 100%;
-    }
-
     .row {
         flex-flow: row wrap;
     }
 
-    .lessons .col {
+    .container .col {
         width: 100%;
         margin-bottom: 100px;
     }
 
-    .steps .col {        
-        width: 100%;
-        margin-bottom: 100px;
+    .why-us {
+        background-color: #222222;
+        margin: -50px 0;
+        padding: 50px;
     }
  }
+
+ @media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+ }
+
+ @media screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+ }
+
+ 
